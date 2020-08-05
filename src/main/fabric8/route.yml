@@ -1,0 +1,7 @@
+metadata:
+  annotations:
+    router.openshift.io/cookie_name: JSESSIONID
+spec:
+  to:
+    kind: Service
+    name: rest-server
